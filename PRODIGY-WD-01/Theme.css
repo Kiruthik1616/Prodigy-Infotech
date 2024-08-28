@@ -1,0 +1,71 @@
+/* .home-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  
+  .image-container img {
+    max-width: 100%; 
+  }
+  
+  .text-container {
+    max-width: 60%; 
+  }
+  
+  
+  .cakes-container1{
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 30%;
+    background-image: linear-gradient(45deg,rgba(2, 2, 0, 0.635), rgb(255, 252, 251));
+    border-radius: 10px;
+    
+  }
+  
+  font {
+    color: #333;
+    margin-right: 0%; 
+  } */
+ .sbut{
+  margin-bottom: 60px;
+  background-color: brown;
+ }
+   
+  .sbutton {
+    background-color: #000000 ; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .sbutton:hover {
+    background-color: #000000; /* Darker Green */
+  }
+  .addbutton 
+  {
+    margin-top: 10%;
+    background-color: #000000 ; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+

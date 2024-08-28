@@ -1,0 +1,10 @@
+.content-container{
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.491);
+   padding-left: 30px;
+}
+.content-container h1{
+    color: aliceblue;
+}

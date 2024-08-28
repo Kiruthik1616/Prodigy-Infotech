@@ -1,0 +1,125 @@
+
+.container {
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .form {
+    margin-bottom: 20px;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 10px #007BFF;
+    transform: scale(1.05);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #b33c00;
+    transform: scale(1.1);
+  }
+  
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .weather-card {
+    background-color: #082843; /* Light blue background for the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.701);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  
+  .weather-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 400;
+    transition: opacity 0.3s ease;
+  }
+  
+  .weather-info p:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+  }
+
+  span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  

@@ -1,0 +1,56 @@
+.home1
+{  
+    text-align: center;
+    padding-top: 10%;
+}
+.home2
+{
+    text-align: center;
+}
+.home4
+{
+    height: 100px;
+   
+}
+.contactbutton{
+    text-align: center;
+    padding-top: 10px;
+}
+.birthday-event-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 50px;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+   width: 350px;
+    height: auto;
+    border-radius: 5%;
+  }
+  
+  .content-container {
+
+    padding-left: -100px;
+  }
+  .ne2
+  {
+    padding-top: 50px;
+  }
+  .ne3
+  {
+    padding-left: 120px;
+  }
+  .ne4
+  {
+    padding-top: 50px;
+  }
+
+ 
+  
